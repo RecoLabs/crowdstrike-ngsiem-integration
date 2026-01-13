@@ -1,0 +1,15 @@
+reco:
+  tenant_url: demo.us.reco.ai
+  api_key: api_key
+
+sink:
+  ngsiemurl: ngsiem-sink-url
+  token: token
+
+posture:
+  fetch_limit: 500
+  cron: "*/5 * * * *"
+
+alerts:
+  fetch_limit: 500
+  cron: "*/5 * * * *"
